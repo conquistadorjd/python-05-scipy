@@ -56,7 +56,7 @@ plt.scatter(x,y1,s=None, marker='o',color='g',edgecolors='g',alpha=0.9,label="Ja
 # plt.ylabel('Sample y Axis')  
 # plt.legend(loc=2)
 # plt.grid(color='black', linestyle='-', linewidth=0.5)
-plt.title('PC '+ "{:.3f}".format(pc[0]) + ' tau ' + "{:.3f}".format(tau[0]) + ' rho ' + "{:.3f}".format(rho[0])+ ' gamma ' + "{:.3f}".format(gamma))
+plt.title('PC '+ "{:.3f}".format(pc[0]) + ' tau ' + "{:.3f}".format(tau[0]) + ' rho ' + "{:.3f}".format(rho[0])+ ' gamma ' + "{:.3f}".format(gamma), fontsize=8)
 
 
 pc = stats.pearsonr(x,y2)
@@ -69,7 +69,7 @@ plt.scatter(x,y2,s=None, marker='o',color='g',edgecolors='g',alpha=0.9,label="Ja
 # plt.ylabel('Sample y Axis')  
 # plt.legend(loc=2)
 # plt.grid(color='black', linestyle='-', linewidth=0.5)
-plt.title('PC '+ "{:.3f}".format(pc[0]) + ' tau ' + "{:.3f}".format(tau[0]) + ' rho ' + "{:.3f}".format(rho[0])+ ' gamma ' + "{:.3f}".format(gamma))
+plt.title('PC '+ "{:.3f}".format(pc[0]) + ' tau ' + "{:.3f}".format(tau[0]) + ' rho ' + "{:.3f}".format(rho[0])+ ' gamma ' + "{:.3f}".format(gamma), fontsize=8)
 
 
 pc = stats.pearsonr(x,y3)
@@ -82,7 +82,7 @@ plt.scatter(x,y3,s=None, marker='o',color='g',edgecolors='g',alpha=0.9,label="Ja
 # plt.ylabel('Sample y Axis')  
 # plt.legend(loc=2)
 # plt.grid(color='black', linestyle='-', linewidth=0.5)
-plt.title('PC '+ "{:.3f}".format(pc[0]) + ' tau ' + "{:.3f}".format(tau[0]) + ' rho ' + "{:.3f}".format(rho[0])+ ' gamma ' + "{:.3f}".format(gamma))
+plt.title('PC '+ "{:.3f}".format(pc[0]) + ' tau ' + "{:.3f}".format(tau[0]) + ' rho ' + "{:.3f}".format(rho[0])+ ' gamma ' + "{:.3f}".format(gamma), fontsize=8)
 
 pc = stats.pearsonr(x,y4)
 tau = stats.kendalltau(x,y4)
@@ -94,7 +94,7 @@ plt.scatter(x,y4,s=None, marker='o',color='g',edgecolors='g',alpha=0.9,label="Ja
 # plt.ylabel('Sample y Axis')  
 # plt.legend(loc=2)
 # plt.grid(color='black', linestyle='-', linewidth=0.5)
-plt.title('PC '+ "{:.3f}".format(pc[0]) + ' tau ' + "{:.3f}".format(tau[0]) + ' rho ' + "{:.3f}".format(rho[0])+ ' gamma ' + "{:.3f}".format(gamma))
+plt.title('PC '+ "{:.3f}".format(pc[0]) + ' tau ' + "{:.3f}".format(tau[0]) + ' rho ' + "{:.3f}".format(rho[0])+ ' gamma ' + "{:.3f}".format(gamma), fontsize=8)
 
 # Saving image
 plt.savefig('correlationexamples-01.png')
