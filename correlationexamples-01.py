@@ -97,7 +97,7 @@ plt.scatter(x,y4,s=None, marker='o',color='g',edgecolors='g',alpha=0.9,label="Ja
 plt.title('PC '+ "{:.3f}".format(pc[0]) + ' tau ' + "{:.3f}".format(tau[0]) + ' rho ' + "{:.3f}".format(rho[0])+ ' gamma ' + "{:.3f}".format(gamma), fontsize=8)
 
 # Saving image
-plt.savefig('correlationexamples-01.png')
+plt.savefig('correlationexamples-001.png')
 
 # In case you dont want to save image but just displya it
 plt.show()
