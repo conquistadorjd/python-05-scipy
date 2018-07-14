@@ -1,5 +1,5 @@
 ################################################################################################
-#	name:	linear-regression-01.py
+#	name:	linear-regression-01-statsmodels.py
 #	desc:	linear regression using statsmodels
 #	date:	2018-07-14
 #	Author:	conquistadorjd

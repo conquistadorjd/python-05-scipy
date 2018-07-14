@@ -1,5 +1,5 @@
 ################################################################################################
-#	name:	linear-regression-03.py
+#	name:	linear-regression-03-scipy.py
 #	desc:	linear regression using  scipy
 #	date:	2018-07-14
 #	Author:	conquistadorjd

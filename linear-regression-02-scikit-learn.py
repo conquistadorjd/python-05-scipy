@@ -1,5 +1,5 @@
 ################################################################################################
-#	name:	linear-regression-02.py
+#	name:	linear-regression-02-scikit-learn.py
 #	desc:	linear regression using scikit-learn
 #	date:	2018-07-14
 #	Author:	conquistadorjd
